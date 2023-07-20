@@ -1,0 +1,19 @@
+.Social{
+    width: 4rem;
+    height: 4rem;
+    margin: .2rem;
+    transition: transform 0.2s;
+}
+
+.Social:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Social{
+        width: 2rem;
+        height: 2rem;
+        margin: .05rem;
+    }
+}

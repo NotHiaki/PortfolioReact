@@ -1,0 +1,12 @@
+.Title{
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: .8em;
+    font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .Title{
+        font-size: 3rem;
+    }
+}

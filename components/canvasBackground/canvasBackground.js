@@ -86,7 +86,7 @@ const CanvasBackground = () => {
       for (let star of stars) {
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(59, 130, 246, 1)";
+        ctx.fillStyle = "rgba(59, 130, 246)";
         ctx.fill();
       }
 
@@ -121,4 +121,4 @@ const CanvasBackground = () => {
   return <canvas ref={ref}/>;
 };
 
-export default CanvasBackground;
+export default CanvasBackground
