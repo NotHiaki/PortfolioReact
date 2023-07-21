@@ -9,10 +9,21 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Skill{
+        height: 80vh;
+    }
+
     .imgSkillArea{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 863px) {
+    .imgSkillArea{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
