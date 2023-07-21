@@ -2,14 +2,18 @@
 
 :root{
     font-size: 16px;
+    --bg: #181A1C;
 }
 
 *{
     margin: 0;
     padding: 0;
     color: white;
+    
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff var(--bg);
 }
 
 canvas{
-    background-color: #181A1C;
+    background-color: var(--bg);
 }

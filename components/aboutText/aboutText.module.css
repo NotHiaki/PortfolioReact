@@ -1,0 +1,12 @@
+.AboutText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 1.5rem;
+    width: 80vw;
+}
+
+@media screen and (max-width: 768px) {
+    .AboutText{
+        font-size: small;
+    }
+}

@@ -1,3 +1,5 @@
+import Link from 'react-scroll';
+import dynamic from 'next/dynamic';
 import CanvasBackground from '../canvasBackground/canvasBackground';
 import Social from '../social/social';
 import Title from '../title/title';
@@ -5,6 +7,9 @@ import style from './home.module.css';
 
 
 function Home(){
+    const Link = dynamic(() => import('react-scroll').then(mod => mod.Link), {
+        ssr: false
+      });
     return (
         <div className={style.Home}>
             <CanvasBackground/>
@@ -16,7 +21,9 @@ function Home(){
                 </div>
                 <div className={style.TitleBot}>
                     <Title text="HENRIQUE"/>
-                    <Social src="/assets/arrowWhite.png"/>
+                    <Link to='BreakScroll' smooth={true} duration={500}>
+                        <Social src="/assets/arrowWhite.png"/>
+                    </Link>
                 </div>
             </div>
         </div>

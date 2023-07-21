@@ -1,0 +1,19 @@
+.About{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--bg);
+}
+
+.AboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .About{
+        height: 50vh;
+    }
+}

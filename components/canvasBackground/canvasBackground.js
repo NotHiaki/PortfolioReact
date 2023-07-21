@@ -118,7 +118,7 @@ const CanvasBackground = () => {
     };
   }, []);
 
-  return <canvas ref={ref}/>;
+  return <canvas ref={ref} style={{widht: '100vw', height: '100vh'}}/>;
 };
 
 export default CanvasBackground
