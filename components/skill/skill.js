@@ -8,9 +8,9 @@ function Skill(){
             <Title text="SKILLS"/>
             <div className={style.imgSkillArea}>
                 <ImgSkill src="/assets/nextjs.svg" title="next.js"/>
+                <ImgSkill src="/assets/react.svg" title="react"/>
                 <ImgSkill src="/assets/js.svg" title="javascript"/>
-                <ImgSkill src="/assets/html.svg" title="html"/>
-                <ImgSkill src="/assets/css.svg" title="css"/>
+                <ImgSkill src="/assets/tailwind.svg" title="tailwind"/>
                 <ImgSkill src="/assets/git.svg" title="git"/>
                 <ImgSkill src="/assets/vscode.svg" title="vs code"/>
             </div>
