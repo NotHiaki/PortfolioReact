@@ -7,10 +7,9 @@ function Skill(){
         <div className={style.Skill}>
             <Title text="SKILLS"/>
             <div className={style.imgSkillArea}>
-                <ImgSkill src="/assets/nextjs.svg" title="next.js"/>
-                <ImgSkill src="/assets/react.svg" title="react"/>
                 <ImgSkill src="/assets/js.svg" title="javascript"/>
-                <ImgSkill src="/assets/tailwind.svg" title="tailwind"/>
+                <ImgSkill src="/assets/html5.svg" title="html5"/>
+                <ImgSkill src="/assets/css3.svg" title="css3"/>
                 <ImgSkill src="/assets/git.svg" title="git"/>
                 <ImgSkill src="/assets/vscode.svg" title="vs code"/>
             </div>
